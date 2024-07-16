@@ -1,5 +1,3 @@
-require ( './helpers.js' );
-
 describe("The payroll system", function () {
   describe("populates a record from an Array", function () {
     it("has a function called createEmployeeRecord", function () {
@@ -327,3 +325,9 @@ describe("The payroll system", function () {
     })
   })
 })
+// indexTest.js or EmployeeTest.js
+
+const { createEmployeeRecord, createEmployeeRecords, createTimeInEvent, createTimeOutEvent, hoursWorkedOnDate, wagesEarnedOnDate, allWagesFor, calculatePayroll } = require('./Employee.js');
+// Adjust the path './Employee.js' based on your file structure
+
+// Your tests using these imported functions
